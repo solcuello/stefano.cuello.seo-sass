@@ -1,0 +1,29 @@
+//extends//
+
+.name{
+    font-size: "Raleway", sans-serif;
+        color: #EBC00C;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5%;
+        padding-top: 4%;
+        font-weight: 600;
+}
+
+.prox{
+    @extend .name;
+    background-color: aqua;
+}
+
+//mixins
+@mixin texto($grande,$fondo,$color){
+    font-size: $grande;
+    background-color: $fondo;
+    color: $color;
+    border-radius: 10px;
+
+}
+
+P{
+    @include texto(0.8em, #EBC00C, white)
+}

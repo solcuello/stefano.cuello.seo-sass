@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+h1,
+h2,
+h3{font-family: $textTitulo;
+}
+
+.name{
+    font-size: $Titulo;
+    color: $maincolor;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-top: 4%;
+    font-weight: 600;
+}
+
+.main{
+    background-image: url(../img/STEFANO.jpeg);
+    background-size:cover ;
+    width: 100%;
+    height: 150vh;
+  
+}
+
+.main-s{
+    background-image: url(./img/STEFANO.jpeg);
+    background-size:cover ;
+    width: 100%;
+    height: 150vh;
+}
+
+.main-c{
+    background-image: url(./img/STEFANO.jpeg);
+    background-size:cover ;
+    width: 100%;
+    height: 150vh;
+}
+
+.main-m{
+    background-color:#ffffff9d;
+    width: 100%;
+    height: auto;
+}
