@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compilacion:sass": "sass --watch scss/style.scss css/style.css"
+    "compilacion:sass": "sass --watch scss/style.scss css/style.css",
+    "build":"purgecss --css css/main.css --content index.html -o css/reducido.css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "nodemon": "^2.0.19",
     "sass": "^1.53.0"
   },
-  "devDependencies": {},
   "description": ""
 }
