@@ -10157,7 +10157,7 @@ nav ul li a:hover {
   box-sizing: border-box;
   border-top: solid 12px #EBC00C;
   text-align: center;
-  background-color: #5268c2;
+  background-color: rgb(53, 53, 53);
 }
 
 * {
