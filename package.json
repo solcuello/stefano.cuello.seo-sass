@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compilacion:sass": "sass --watch scss/style.scss css/style.css",
-    "build":"purgecss --css css/main.css --content index.html -o css/reducido.css"
+    "compilacion:sass": "sass --watch scss/style.scss css/style.css"
   },
   "author": "",
   "license": "ISC",
